@@ -205,20 +205,24 @@ composer install
 ### **3 .env fájl beállítása**
 -  **Az env.example -ben benne az adatbázis beállitásával kapcsolatos sorok** 
 
-### **4 Adatbázis migráció:**
+### **4. Kulcs generálása**
+-  **php artisan key:generate**
+
+
+### **5 Adatbázis migráció:**
 
 ```bash
 php artisan migrate
 ```
 
-### **5 Szerver indítása:**
+### **6 Szerver indítása:**
 
 
 ```bash
 php artisan serve
 ```
 
-### **6 Link:**
+### **7 Link:**
 Miután elindult a szerver, a linkre kattintva : 
  [http://127.0.0.1:8000].
  megjelenik a felületünk, az url be beírva a végpontot : http://127.0.0.1:8000/cities pedig megjelenik a kezelni kívánt felület az összes működő funkciójával együtt.
